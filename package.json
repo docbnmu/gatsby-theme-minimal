@@ -41,7 +41,7 @@
     "typeface-ibm-plex-sans": "^0.0.75"
   },
   "scripts": {
-    "postinstall": "cd ./node_modules/gatsby-theme-minimal-core && npm install && npm run build"
+    "postinstall": "cd ./node_modules/@docbnmu/gatsby-theme-minimal-core && npm install && npm run build"
   },
   "keywords": [
     "gatsby"
