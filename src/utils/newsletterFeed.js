@@ -40,7 +40,7 @@ module.exports = {
         }
       `,
       output: `rss.xml`,
-      title: `Notices - University Department of Chemistry/`,
+      title: `Minimal Blog - @lekoarts/gatsby-theme-minimal-blog`,
     },
   ],
 }

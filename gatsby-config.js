@@ -2,18 +2,18 @@ const newsletterFeed = require(`./src/utils/newsletterFeed`)
 
 module.exports = options => ({
   siteMetadata: {
-    siteTitle: `University Department of Chemistry`,
-    siteTitleAlt: `University Department of Chemistry, B. N. Mandal University.`,
-    siteHeadline: `University Department of Chemistry, B. N. Mandal University.`,
-    siteUrl: `https://docbnmu.in/`,
-    siteDescription: `University Department of Chemistry, B. N. Mandal University.`,
+    siteTitle: `University Department of Chemistry.`,
+    siteTitleAlt: `University Department of Chemistry. Bhupendra Narayan Mandal University.`,
+    siteHeadline: `University Department of Chemistry. Bhupendra Narayan Mandal University. Madhepura. Bihar.`,
+    siteUrl: `https://docbnmu.in`,
+    siteDescription: `University Department of Chemistry. Bhupendra Narayan Mandal University. Madhepura. Bihar.`,
     siteLanguage: `en`,
     siteImage: `/banner.jpg`,
     author: `@docbnmu`,
   },
   plugins: [
     {
-      resolve: `@docbnmu/gatsby-theme-minimal-core`,
+      resolve: `@lekoarts/gatsby-theme-minimal-blog-core`,
       options,
     },
     {
