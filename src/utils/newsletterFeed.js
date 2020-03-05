@@ -39,8 +39,8 @@ module.exports = {
           }
         }
       `,
-      output: `rss.xml`,
-      title: `Minimal Blog - @lekoarts/gatsby-theme-minimal-blog`,
+      output: `notice.xml`,
+      title: `Notice - University Department of Chemistry, BNMU.`,
     },
   ],
 }
