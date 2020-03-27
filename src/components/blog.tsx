@@ -28,7 +28,7 @@ const Blog = ({ posts }: PostsProps) => {
 
   return (
     <Layout>
-      <SEO title="Blog" />
+      <SEO title="Notice" />
       <Flex sx={{ alignItems: `center`, justifyContent: `space-between`, flexFlow: `wrap` }}>
         <Styled.h2>Notice</Styled.h2>
         <Styled.a as={Link} sx={{ variant: `links.secondary` }} to={replaceSlashes(`/${basePath}/${tagsPath}`)}>
